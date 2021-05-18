@@ -3,8 +3,8 @@ import Card from './Card.js';
 
 const CardList = ({ robots }) => {
 
-	if (true) 
-		throw new Error('NOOOO');
+	//if (true) 
+	//	throw new Error('NOOOO');
 
 	const cardArray = robots.map((user, i) => {
 		return (
